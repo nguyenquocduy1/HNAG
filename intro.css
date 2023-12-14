@@ -1897,3 +1897,16 @@ body{
         transform: scale(1);
     }
  }
+/* Quy tắc CSS khi chiều rộng màn hình nhỏ hơn hoặc bằng 768px */
+@media screen and (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  }
+  
+  /* Quy tắc CSS khi chiều rộng màn hình nhỏ hơn hoặc bằng 480px */
+  @media screen and (max-width: 480px) {
+    body {
+      font-size: 12px;
+    }
+  }
